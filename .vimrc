@@ -20,3 +20,7 @@ set shiftwidth=4
 set expandtab
 set list
 set listchars=eol:¬,tab:»\ ,nbsp:■,extends:→,precedes:←
+map ,e :FufCoverageFile<CR>
+map ,E :FufFile<CR>
+map ,r :FufTag<CR>
+map ,R :FufTagWithCursorWord<CR>
